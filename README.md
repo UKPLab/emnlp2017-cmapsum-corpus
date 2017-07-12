@@ -29,8 +29,10 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
 
 ## Project structure
+
 This repository contains two folders:
 * `eval` evaluation scripts for the corpus
 * `baseline` implementation of the described baseline system
+
 For details, please refer to the corresponding README files.
 
