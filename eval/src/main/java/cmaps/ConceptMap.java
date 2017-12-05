@@ -93,6 +93,8 @@ public class ConceptMap {
 
 	// check if the graph is connected
 	public boolean isConnected() {
+		if (this.getConcepts().size() == 0)
+			return true;
 
 		Queue<Concept> queue = new LinkedList<Concept>();
 		Set<Concept> visited = new HashSet<Concept>();
